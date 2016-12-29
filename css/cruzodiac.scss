@@ -1,0 +1,76 @@
+
+
+$gray: rgba(50,50,50,1);
+
+html {
+	width: 100%;
+	height: 100%;
+}
+
+h1 {
+	font-family: monospace;
+	font-size: 2rem;
+	color: $gray;
+}
+
+p {
+	font-family: monospace;
+	font-size: 1.5rem;
+	color: $gray;
+}
+
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+#cruzodiaccontainer {
+	position: relative;
+	width: 640px;
+	height: 480px;
+	margin-left: -320px;
+	left: 50%;
+	overflow: hidden;
+	background: black;
+}
+
+#loader {
+	position: absolute;
+	width: 260px;
+	height: 60px;
+	left: 190px;
+	top: 175px;
+	text-align: center;
+	z-index: 200;
+	font-size: 50px;
+	color: #ffffff;
+}
+
+#allimages {
+	position: absolute;
+	display: none;
+	opacity: 0;
+}
+
+.cruzodiacimages {
+	position: absolute;
+}
+
+#cruzodiacimage1 {
+	left: 0;
+}
+
+#cruzodiacimage2 {
+	left: 12800px;
+}
+
+#cruzodiacimage3 {
+	left: 25600px;
+}
+
+#cruzodiacimage4 {
+	left: 38400px;
+}
