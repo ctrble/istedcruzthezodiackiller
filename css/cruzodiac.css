@@ -4,6 +4,7 @@ html {
 
 body {
   -webkit-perspective: 300px;
+  perspective: 300px;
   background: #ffffff;
   color: #0c0c0c;
   position: fixed;
