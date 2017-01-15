@@ -101,7 +101,8 @@ input:focus {
   margin-right: 2rem; }
   .party a {
     color: #0077c3;
-    text-decoration: none; }
+    text-decoration: none;
+    text-shadow: none; }
   .party:before {
     content: "";
     position: absolute;

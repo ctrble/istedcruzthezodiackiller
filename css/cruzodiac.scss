@@ -134,6 +134,7 @@ input:focus {
 	& a{
 		color: $blue;
 		text-decoration: none;
+		text-shadow: none;
 	}
 	&:before {
 		content: "";
