@@ -48,7 +48,7 @@ input:focus {
   top: 226px;
   text-align: center;
   z-index: 220;
-  font-size: 1rem;
+  font-size: 2rem;
   font-family: monospace;
   color: #f4f5f5;
   display: none;
@@ -81,38 +81,42 @@ input:focus {
   position: fixed;
   bottom: 2rem;
   width: 100%;
-  font-size: 1rem;
-  z-index: 100; }
-  .footer a {
-    position: relative;
-    margin-top: 1.5rem;
-    margin-right: 2rem;
+  font-size: 1rem; }
+
+.business {
+  margin-left: 2rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  outline: 0.25rem #141414 solid;
+  border-bottom: 0.75rem #141414 solid;
+  background-color: #e8e9bb; }
+  .business a {
+    padding: 0.5rem; }
+
+.party {
+  position: relative;
+  margin-top: 1.5rem;
+  margin-right: 2rem; }
+  .party a {
     color: #0077c3;
-    text-decoration: none;
-    transition: all 5s ease-out; }
-    .footer a:before {
-      content: "";
-      position: absolute;
-      width: 100%;
-      height: 1px;
-      bottom: 0;
-      left: 0;
-      z-index: -1;
-      background-color: #0077c3;
-      visibility: hidden;
-      -webkit-transform: scaleX(0);
-      transform: scaleX(0);
-      -webkit-transition: all 0.3s ease-in-out 0s;
-      transition: all 0.3s ease-in-out 0s; }
-    .footer a:hover:before {
-      visibility: visible;
-      -webkit-transform: scaleX(1);
-      transform: scaleX(1); }
-  .footer picture {
-    margin-left: 2rem;
-    padding: 0.5rem;
-    outline: 0.25rem #141414 solid;
-    border-bottom: 0.75rem #141414 solid;
-    background-color: #e8e9bb; }
+    text-decoration: none; }
+  .party:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    background-color: #0077c3;
+    visibility: hidden;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s; }
+  .party:hover:before {
+    visibility: visible;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1); }
 
 /*# sourceMappingURL=cruzodiac.css.map */
