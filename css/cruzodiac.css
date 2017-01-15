@@ -12,7 +12,8 @@ body {
   padding: 0;
   width: 100%;
   height: 100%;
-  font-family: monospace; }
+  font-family: monospace;
+  font-size: 2rem; }
 
 input:focus {
   outline: none; }
@@ -38,7 +39,8 @@ input:focus {
   text-align: center;
   z-index: 200;
   font-size: 3rem;
-  color: #ffffff; }
+  color: #f4f5f5;
+  text-shadow: -1px -1px 0 #f71c0e, 1px -1px 0 #f71c0e, -1px 1px 0 #f71c0e, 1px 1px 0 #f71c0e; }
 
 #introtext {
   position: absolute;
@@ -48,11 +50,12 @@ input:focus {
   top: 226px;
   text-align: center;
   z-index: 220;
-  font-size: 2rem;
+  font-size: 3rem;
   font-family: monospace;
   color: #f4f5f5;
   display: none;
-  opacity: 0; }
+  opacity: 0;
+  text-shadow: -2px -2px 0 #f71c0e, -2px 0px 0 #f71c0e, 2px 0px 0 #f71c0e, 0px -2px 0 #f71c0e, 0px 2px 0 #f71c0e, 2px -2px 0 #f71c0e, -2px 2px 0 #f71c0e, 2px 2px 0 #f71c0e; }
 
 #allimages {
   position: absolute;
