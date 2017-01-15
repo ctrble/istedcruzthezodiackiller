@@ -56,10 +56,10 @@
 						$("#introtext").css("display","block");
 						$("#introtext").html("Drag your finger across the screen to reveal!");
 						$("#introtext").css("display","block");
-						$("#introtext").animate({ opacity: 1 }, 1000, "linear");
+						$("#introtext").animate({ opacity: 1 }, 2000, "linear");
 
 						setTimeout(function() {
-							$("#introtext").animate({ opacity: 0 }, 1000, "linear", function() {
+							$("#introtext").animate({ opacity: 0 }, 2000, "linear", function() {
 								$("#introtext").css("display","none");
 							});
 						}, 3000);
