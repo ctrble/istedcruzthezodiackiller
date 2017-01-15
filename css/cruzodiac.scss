@@ -23,11 +23,6 @@ body {
 	height: 100%;
 	font-family: monospace;
 	font-size: 2rem;
-	text-shadow:
-   -1px -1px 0 $red,
-    1px -1px 0 $red,
-    -1px 1px 0 $red,
-     1px 1px 0 $red;
 }
 
 input:focus {
@@ -67,11 +62,16 @@ input:focus {
 	top: 226px;
 	text-align: center;
 	z-index: 220;
-	font-size: 2rem;
+	font-size: 3rem;
 	font-family: monospace;
 	color: $cream;
 	display: none;
 	opacity: 0;
+	text-shadow:
+   -1px -1px 0 $red,
+    1px -1px 0 $red,
+    -1px 1px 0 $red,
+     1px 1px 0 $red;
 }
 
 #allimages {
