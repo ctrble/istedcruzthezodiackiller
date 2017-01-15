@@ -4,22 +4,20 @@ html {
 
 body {
   -webkit-perspective: 300px;
+  background: #ffffff;
+  color: #0c0c0c;
   position: fixed;
   margin: 0;
   padding: 0;
   width: 100%;
   height: 100%;
+  font-weight: 500;
+  font-size: 26px;
+  -webkit-font-smoothing: antialiased;
   font-family: monospace; }
 
 input:focus {
   outline: none; }
-
-.wrapper {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: 100vh; }
 
 #cruzodiacgame {
   border: 1rem red solid;

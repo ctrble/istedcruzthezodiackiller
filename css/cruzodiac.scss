@@ -19,21 +19,21 @@ body {
 	font-weight: 500;
 	font-size: 26px;
 	-webkit-font-smoothing: antialiased;
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: monospace;
 }
 
 input:focus {
 	outline: none;
 }
 
-.wrapper {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	height: 100vh;
-	// background-color: blue;
-}
+// .wrapper {
+// 	display: flex;
+// 	flex-direction: column;
+// 	justify-content: center;
+// 	align-items: center;
+// 	height: 100vh;
+// 	// background-color: blue;
+// }
 
 #cruzodiacgame {
 	border: 1rem red solid;
