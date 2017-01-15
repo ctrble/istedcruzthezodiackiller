@@ -9,7 +9,7 @@ html {
 
 body {
 	-webkit-perspective: 300px;
-	perspective: 300px;  
+	// perspective: 300px;
 	background: #ffffff;
 	color: #0c0c0c;
 	position: fixed;
@@ -17,29 +17,14 @@ body {
 	padding: 0;
 	width: 100%;
 	height: 100%;
-	font-weight: 500;
-	font-size: 26px;
-	-webkit-font-smoothing: antialiased;
+	// font-weight: 500;
+	// font-size: 26px;
+	// -webkit-font-smoothing: antialiased;
 	font-family: monospace;
 }
 
 input:focus {
 	outline: none;
-}
-
-// .wrapper {
-// 	display: flex;
-// 	flex-direction: column;
-// 	justify-content: center;
-// 	align-items: center;
-// 	height: 100vh;
-// 	// background-color: blue;
-// }
-
-#cruzodiacgame {
-	border: 1rem red solid;
-	background-color: red;
-	// background-image: url(img/frame.svg);
 }
 
 #cruzodiaccontainer {
@@ -51,7 +36,8 @@ input:focus {
 	left: 50%;
 	top: 50%;
 	overflow: hidden;
-	background: black;
+	outline: 1rem red solid;
+	background-color: red;
 }
 
 #loader {
@@ -62,7 +48,7 @@ input:focus {
 	top: 175px;
 	text-align: center;
 	z-index: 200;
-	font-size: 50px;
+	font-size: 3rem;
 	color: #ffffff;
 }
 
@@ -74,7 +60,7 @@ input:focus {
 	top: 226px;
 	text-align: center;
 	z-index: 220;
-	font-size: 30px;
+	font-size: 1rem;
 	font-family: monospace;
 	color: #ffffff;
 	display: none;
@@ -105,4 +91,24 @@ input:focus {
 
 #cruzodiacimage4 {
 	left: 38400px;
+}
+
+.footer {
+  position: fixed;
+  bottom: 1.5rem;
+  width: 20rem;
+	margin-left: -10rem;
+  left: 50%;
+	color: #242a2c;
+  text-align: center;
+  font-size: 1rem;
+  z-index:100;
+	& picture {
+		padding-top: 0.75rem;
+		padding-left: 0.75rem;
+		margin-right: 2rem;
+		outline: 0.25rem black solid;
+		border-bottom: 0.75rem black solid;
+		background-color: yellow;
+	}
 }
