@@ -22,15 +22,10 @@ input:focus {
 
 h1 {
 	font-family: monospace;
-	font-size: 2rem;
-	color: $gray;
-	padding: 3rem;
 }
 
 p {
 	font-family: monospace;
-	font-size: 1.5rem;
-	color: $gray;
 }
 
 .wrapper {
@@ -39,10 +34,17 @@ p {
 	justify-content: center;
 	align-items: center;
 	height: 100vh;
+	// background-color: blue;
+}
+
+#cruzodiacgame {
+	border: 1rem red solid;
+	background-color: red;
+	// background-image: url(img/frame.svg);
 }
 
 #cruzodiaccontainer {
-	position: relative;
+	position: absolute;
 	width: 640px;
 	height: 480px;
 	margin-left: -320px;

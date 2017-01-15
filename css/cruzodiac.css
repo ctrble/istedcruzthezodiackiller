@@ -14,15 +14,10 @@ input:focus {
   outline: none; }
 
 h1 {
-  font-family: monospace;
-  font-size: 2rem;
-  color: #323232;
-  padding: 3rem; }
+  font-family: monospace; }
 
 p {
-  font-family: monospace;
-  font-size: 1.5rem;
-  color: #323232; }
+  font-family: monospace; }
 
 .wrapper {
   display: flex;
@@ -31,8 +26,12 @@ p {
   align-items: center;
   height: 100vh; }
 
+#cruzodiacgame {
+  border: 1rem red solid;
+  background-color: red; }
+
 #cruzodiaccontainer {
-  position: relative;
+  position: absolute;
   width: 640px;
   height: 480px;
   margin-left: -320px;
