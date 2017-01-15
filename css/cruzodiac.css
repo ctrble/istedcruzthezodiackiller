@@ -51,10 +51,9 @@ input:focus {
   z-index: 220;
   font-size: 3rem;
   font-family: monospace;
-  color: #f4f5f5;
+  color: #f71c0e;
   display: none;
-  opacity: 0;
-  text-shadow: -2px -2px 0 #f71c0e, -2px 0px 0 #f71c0e, 2px 0px 0 #f71c0e, 0px -2px 0 #f71c0e, 0px 2px 0 #f71c0e, 2px -2px 0 #f71c0e, -2px 2px 0 #f71c0e, 2px 2px 0 #f71c0e; }
+  opacity: 0; }
 
 #allimages {
   position: absolute;
@@ -101,8 +100,7 @@ input:focus {
   margin-right: 2rem; }
   .party a {
     color: #0077c3;
-    text-decoration: none;
-    text-shadow: none; }
+    text-decoration: none; }
   .party:before {
     content: "";
     position: absolute;

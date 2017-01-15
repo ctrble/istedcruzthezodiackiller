@@ -64,18 +64,9 @@ input:focus {
 	z-index: 220;
 	font-size: 3rem;
 	font-family: monospace;
-	color: $cream;
+	color: $red;
 	display: none;
 	opacity: 0;
-	text-shadow:
-   -2px -2px 0 $red,
-	  -2px 0px 0 $red,
-		 2px 0px 0 $red,
-		0px -2px 0 $red,
- 		 0px 2px 0 $red,
-    2px -2px 0 $red,
-    -2px 2px 0 $red,
-     2px 2px 0 $red;
 }
 
 #allimages {
@@ -134,7 +125,6 @@ input:focus {
 	& a{
 		color: $blue;
 		text-decoration: none;
-		text-shadow: none;
 	}
 	&:before {
 		content: "";
