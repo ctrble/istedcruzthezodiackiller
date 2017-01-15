@@ -63,7 +63,7 @@ input:focus {
 	top: 226px;
 	text-align: center;
 	z-index: 220;
-	font-size: 1rem;
+	font-size: 2rem;
 	font-family: monospace;
 	color: $cream;
 	display: none;
@@ -103,9 +103,6 @@ input:focus {
   position: fixed;
   bottom: 2rem;
   width: 100%;
-	// margin-left: -320px;
-  // left: 50%;
-  // text-align: center;
   font-size: 1rem;
   z-index:100;
 	& a {
@@ -139,31 +136,8 @@ input:focus {
 	& picture {
 		margin-left: 2rem;
 		padding: 0.5rem;
-		// padding-bottom: 0.25rem;
-		// padding-left: 0.75rem;
-		// margin-right: 2rem;
 		outline: 0.25rem $blackish solid;
 		border-bottom: 0.75rem $blackish solid;
 		background-color: $yellow;
 	}
 }
-
-// .footer {
-//   position: fixed;
-//   bottom: 2rem;
-//   width: 20rem;
-// 	margin-left: -10rem;
-//   left: 50%;
-//   text-align: center;
-//   font-size: 1rem;
-//   z-index:100;
-// 	& picture {
-// 		padding-top: 0.75rem;
-// 		padding-bottom: 0.25rem;
-// 		padding-left: 0.75rem;
-// 		margin-right: 2rem;
-// 		outline: 0.25rem $blackish solid;
-// 		border-bottom: 0.75rem $blackish solid;
-// 		background-color: $yellow;
-// 	}
-// }
